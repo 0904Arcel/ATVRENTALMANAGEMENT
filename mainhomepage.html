@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainhomepage.css">
+    <link rel="icon" href="ATVLOGO.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Baloo+Tamma+2&family=Black+Ops+One&family=Bungee+Inline&family=Fredericka+the+Great&family=Fredoka&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+
+    <title>ATV Rental-Homepage</title>
+    <style>
+        body{
+            background-color: rgb(29, 28, 28) ;
+        }
+    </style>
+</head>
+<body>
+
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src="ATV_VID.mp4" type="video/mp4">
+    </video>
+    <div class="container-header">
+        <img src="ATVLOGO.png" class="logo1" >
+        <ul>
+            <li><ion-icon name="call-sharp"></ion-icon></li>
+            <li>+63 923 456 7891 | +63 943 545 4653</li>
+            <li><ion-icon name="mail-outline"></ion-icon></li>
+            <li>atvrental04@gmail.com</li>
+            <li><ion-icon name="logo-facebook" style=" position: relative; right: -510px;"></ion-icon></li>
+            <li><ion-icon name="logo-youtube" style=" position: relative; right: -510px;"></ion-icon></li>
+            <li><ion-icon name="logo-instagram" style=" position: relative; right: -510px;" ></ion-icon></li>
+            <li><ion-icon name="logo-tiktok" style=" position: relative; right: -510px;"></ion-icon></li>
+        </ul>
+    </div>
+    
+   <div class="container-header2">
+    <img src="ATVLOGO.png" class="logo2" onclick="dragLogo(event)">
+        <ul>
+            <li><a href="mainhomepage.html">HOME</a></li>
+            <li><a href="mainhomepageReservation.html">RESERVATION</a></li>
+            <li><a href="mainhomepageGallery.html">GALLERY</a></li>
+            <li><a href="#">BE A MEMBER?</a></li>
+            <li><a href="#">CONTACT US</a></li>
+            <li><a href="#">LOGIN</a></li>
+        </ul>
+   </div>
+    
+    <div class="container-mid1" id="1">
+        <h1>WELCOME TO ATV RENTAL</h1>
+        <h2>Do you want to have fun with your family and friends? And experience extreme rides with ATVs? What are you waiting for? Be a member now! Here at ATV Rental.</h2>
+        <p>Join us as we guide you through muddy trails, challenging hills, lush green forests, and dense jungles. Explore rivers and more! Immerse yourself in nature, engage with local communities, take a refreshing swim in the river, and embark on an amazing adventure. Our trails are exceptional! Whether you're planning a family outing, celebrating a birthday, organizing a corporate event, or simply gathering with friends, we welcome groups of all sizes. Our tours require a minimum of 2 people.
+
+            No worries if you're a beginner! We offer instruction and a safety demonstration to ensure all riders are well-prepared.</p>
+        <button>BE A MEMBER NOW!</button>
+    </div>
+    <div class="container-mid2" id="2">
+        <div class="mid1">
+            <h1>Be a Member?</h1>
+            <img src="ATV LOGO/ATV_LOGO2.png" class="logomid1">
+            <h2>How to be a Member?</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, blanditiis sint repellendus ducimus aspernatur recusandae suscipit doloremque exercitationem rerum porro.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, velit expedita! Perspiciatis maxime soluta autem quo, distinctio voluptate nam natus, necessitatibus voluptatum nobis repellendus facere voluptatem corrupti doloremque impedit quod excepturi odio quas iusto aliquid quam repudiandae unde dolore? Recusandae ab amet quo minus ut aliquid ipsum commodi iure quia?</p>
+            <button class="b1-mid2">LEARN MORE</button>
+        </div>
+        <div class="mid2">
+            <h1>Be a Tourguide?</h1>
+            <img src="ATV LOGO/TOURGUIDELOGO.png" class="logomid2">
+            <h2>How to Apply?</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, blanditiis sint repellendus ducimus aspernatur recusandae suscipit doloremque exercitationem rerum porro.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut adipisci neque vitae praesentium. Error in iure nulla accusamus harum est, cum similique autem assumenda. Voluptas porro odit blanditiis dolorem iusto, sint id corporis quos hic eos optio, culpa esse nostrum placeat minima quis. Incidunt sint quasi quia quod odit eos!</p>
+            <button class="b2-mid2">LEARN MORE</button>
+        </div>
+    </div>
+    <div class="full-img" id="fullimgbox">
+        <img src="ATV BACKGROUND/moto1.jpg" id="fullimg" >
+        <span onclick="closeFullImg()">x</span>
+    </div>
+    <div class="container-mid3" id="3">
+        <h1>GALLERY</h1>
+        <img src="ATV BACKGROUND/moto1.jpg" onclick="openfullimg(this.src)">
+        <img src="ATV BACKGROUND/motocross-2500935_1280.jpg" onclick="openfullimg(this.src)">
+        <img src="ATV BACKGROUND/quad-2262332_1280.jpg" onclick="openfullimg(this.src)">
+        <img src="ATV BACKGROUND/quad-race-2501937_1280.jpg" onclick="openfullimg(this.src)">
+        <img src="ATV BACKGROUND/ATV1.jpg" onclick="openfullimg(this.src)">
+        <img src="ATV BACKGROUND/ATV2.jpg" onclick="openfullimg(this.src)">
+        <img src="ATV BACKGROUND/ATV3.jpg" onclick="openfullimg(this.src)">
+        <img src="ATV BACKGROUND/ATV4.jpg" onclick="openfullimg(this.src)">
+        <img src="ATV BACKGROUND/ATV5.jpg" onclick="openfullimg(this.src)">
+        <img src="ATV BACKGROUND/ATV6.jpg" onclick="openfullimg(this.src)">
+        
+        <a href="mainhomepageGallery.html"><button>More</button></a>
+    </div>
+    <div class="container-mid4" id="4">
+        <h1>SOCIAL MEDIA ACCOUNT</h1>
+        <p>Visit our social media account to see how its extream the ATV rizal achuachu</p>
+        <ion-icon name="logo-facebook" class="icon1"></ion-icon>
+        <ion-icon name="logo-youtube"class="icon2"></ion-icon>
+        <ion-icon name="logo-instagram"class="icon3"></ion-icon>
+        <ion-icon name="logo-tiktok"class="icon4"></ion-icon>
+    </div>
+    <div class="container-footer">
+        <p>© 2023 All rights reserved. ATV Rental, Philippines - The best ATV ride in the Philippines!
+          <br> Rules and Regulations | Booking and Reservation | Terms and Conditions</p>
+    </div>
+    <script>
+
+        var fullimgbox = document.getElementById("fullimgbox");
+        var fullimg = document.getElementById("fullimg");
+
+        function openfullimg(pic){
+            fullimgbox.style.display = "flex";
+            fullimg.src = pic;
+        }
+
+        function closeFullImg(){
+            fullimgbox.style.display = "none";
+        }
+        function dragLogo(event) {
+  let logo = event.target;
+  let initialX = event.clientX;
+  let initialY = event.clientY;
+  let logoX = logo.getBoundingClientRect().left;
+  let logoY = logo.getBoundingClientRect().top;
+
+  document.onmousemove = function (e) {
+    let offsetX = e.clientX - initialX;
+    let offsetY = e.clientY - initialY;
+    logo.style.left = logoX + offsetX + "px";
+    logo.style.top = logoY + offsetY + "px";
+  };
+
+  document.onmouseup = function () {
+    document.onmousemove = null;
+    document.onmouseup = null;
+  };
+}
+
+
+    </script>
+
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
